@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: arial, sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar {
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  background-color: black;
+}
+
+.home-logo:hover {
+  cursor: pointer;
+}
+
+.sidebar {
+  background-color: lightblue;
+  height: 100vh;
+  padding: 30px;
+}
+
+.todo-content {
+  padding: 30px;
+}
+
+.project-list-element {
+  list-style-type: none;
+}
+
+.project-list-element:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.todo-list-element {
+  list-style-type: none;
+  background-color: lightgrey;
+  width: 500px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-top: 5px;
+}
+
+.dropdown-arrow:hover {
+  cursor: pointer;
+}
+
+.todo-list-details {
+  display: none;
+  margin-bottom: 5px;
+  border-style: solid;
+  border-width: thin;
+  border-top-style: none;
+  border-color: lightgrey;
+}
+
+.visible-details {
+  display: block;
+}
+
+.item-complete {
+  text-decoration: line-through;
+}
